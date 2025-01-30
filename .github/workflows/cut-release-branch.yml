@@ -5,8 +5,8 @@ permissions:
 
 on:
   workflow_dispatch: # allow manual triggering
-  schedule:
-    - cron: '55 14 * * 4' # trigger every Thursday at 14:55 UTC (9:55 EST)
+  # schedule:
+  #   - cron: '55 14 * * 4' # trigger every Thursday at 14:55 UTC (9:55 EST)
 
 jobs:
   cut-release-branch:
